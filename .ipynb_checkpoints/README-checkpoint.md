@@ -12,7 +12,7 @@ Code for _**"[Improving Clinical Efficiency and Reducing Medical Errors through 
 
 ## Project Objective
 
-In an effort to streamline the process for medical practitioners and improve clinical care for patients within the hospital, we developed various machine learning and deep learning based architectures to classify healthcare conditions in a transcription note, ultimately reducing misdiagnosis rates and alleviating the burden for overloaded hospitals. Furthermore, to increase the accessibility for hospitals worldwide, our models are packaged into an efficient and accurate AI-enabled medical app.
+In an effort to streamline the process for medical practitioners and improve clinical care for patients within the hospital, we developed various machine learning and deep learning based architectures to classify healthcare conditions in a transcription note, ultimately reducing misdiagnosis rates and alleviating the burden for overloaded hospitals. Furthermore, to increase the accessibility for hospitals world-wide, our models are packaged into an efficient and accurate AI-enabled medical app.
 
 ## Web App Details
 
@@ -22,23 +22,8 @@ In terms of the web technologies we used, our front-end was built with HTML, CSS
 
 ![Screen Shot 2022-06-26 at 5 56 31 PM](https://user-images.githubusercontent.com/56781484/175841744-cc1922ea-7824-48d0-b54e-e0c34ebb64b5.png)  <br>
 
-## Model Improvements
-
-Through hyperparameter tuning, we have improved the performance of our models as follows:
-
-- **Random Forest:**
-  - **Old Accuracy:** 91.19%
-  - **New Accuracy:** 93%
-  - **Updated Precision, Recall, and F1 Scores:** [Insert updated scores here]
-
-- **Logistic Regression:**
-  - **Accuracy:** Remained at 84%
-  - **Updated Precision, Recall, and F1 Scores:** [Insert updated scores here]
-
-These improvements enhance the reliability of our diagnostic tool and its applicability in real-world scenarios.
-
 ## Dependencies
-You may need to use `pip install` to install the dependencies on each line of `requirements.txt` (for example, `pip install flask==2.2.5`). This list is not comprehensive and does not include many of the modules, which will need to be installed as errors arise with running (see below section).
+You may need to use `pip install` to install the dependencies on each line of `requirements.txt` (for example, `pip install flask==1.1.2`). This list is not comprehensive and does not include many of the modules, which will need to be installed as errors arise with running (see below section).
 
 You will also need to install Tesseract, more details can be found online or at the [Tesseract User Manual](https://github.com/tesseract-ocr/tessdoc).
 
@@ -47,3 +32,8 @@ To run the code, open a terminal and navigate to the root directory of this repo
 ```bash
 export FLASK_APP=app.py
 flask run -h localhost -p 5001
+```
+
+As import errors arise, you may need to install more modules by using `pip install MODULE_NAME_HERE`.
+
+Finally, once the program runs without errors, navigate to `localhost:5001` in your browser. Enjoy!
