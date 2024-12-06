@@ -32,9 +32,6 @@ Through hyperparameter tuning, we have improved the performance of our models as
     Reproductive       0.86      0.77      0.79        74
        Digestive       0.82      0.75      0.79        62
 
-        accuracy                           0.85       261
-       macro avg       0.85      0.83      0.83       261
-    weighted avg       0.85      0.85      0.85       261
     ```
 
   - **New Classification Report:**
@@ -46,9 +43,7 @@ Through hyperparameter tuning, we have improved the performance of our models as
     Reproductive       0.83      0.93      0.88        74
        Digestive       0.86      0.82      0.84        62
 
-        accuracy                           0.86       261
-       macro avg       0.86      0.85      0.86       261
-    weighted avg       0.86      0.86      0.86       261
+       
     ```
 
 - **Logistic Regression:**
@@ -62,10 +57,6 @@ Through hyperparameter tuning, we have improved the performance of our models as
            Brain       0.94      0.94      0.94        61
     Reproductive       0.90      0.89      0.89        74
        Digestive       0.88      0.87      0.88        62
-
-        accuracy                           0.91       261
-       macro avg       0.91      0.91      0.91       261
-    weighted avg       0.91      0.91      0.91       261
     ```
 
   - **New Classification Report:**
@@ -76,10 +67,6 @@ Through hyperparameter tuning, we have improved the performance of our models as
            Brain       0.89      0.89      0.89        61
     Reproductive       0.94      0.97      0.95        74
        Digestive       0.95      0.90      0.93        62
-
-        accuracy                           0.93       261
-       macro avg       0.93      0.92      0.93       261
-    weighted avg       0.93      0.93      0.93       261
     ```
 
 These improvements enhance the reliability of our diagnostic tool and its applicability in real-world scenarios.
